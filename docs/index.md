@@ -19,123 +19,180 @@ In this document we’re gonna show you how to make your HTTP API call to SenseC
     "code": 0,
     "msg": "",
     "data": {
-        "height": 983142,
+        "height": 1003444,
         "connected": 1,
         "dialable": 1,
-        "natType": 1,
-        "balenaVpnOnline": 0,
+        "natType": 2,
         "ipPublic": [
-            "5.178.180.87"
+            "113.110.229.80"
         ],
         "ipEthLocal": [
-            "192.168.5.117"
+            "192.168.88.119"
         ],
         "ipWifiLocal": [
             "0.0.0.0"
         ],
         "syncList": [
             {
-                "height": 983142,
-                "total": 989882,
-                "time": 1630389677784
+                "height": 1003424,
+                "total": 1003427,
+                "time": 1631180053960
             },
             {
-                "height": 983127,
-                "total": 989878,
-                "time": 1630389374727
+                "height": 1003419,
+                "total": 1003422,
+                "time": 1631179746009
             },
             {
-                "height": 983111,
-                "total": 989870,
-                "time": 1630389071605
+                "height": 1003416,
+                "total": 1003416,
+                "time": 1631179440140
             },
             {
-                "height": 983091,
-                "total": 989868,
-                "time": 1630388770447
+                "height": 1003408,
+                "total": 1003409,
+                "time": 1631179128392
             },
             {
-                "height": 983075,
-                "total": 989859,
-                "time": 1630388468354
+                "height": 1003393,
+                "total": 1003399,
+                "time": 1631178100688
             },
             {
-                "height": 983055,
-                "total": 989856,
-                "time": 1630388165049
+                "height": 1003387,
+                "total": 1003393,
+                "time": 1631177794943
             },
             {
-                "height": 983034,
-                "total": 989851,
-                "time": 1630387860903
+                "height": 1003384,
+                "total": 1003387,
+                "time": 1631177452093
             },
             {
-                "height": 983018,
-                "total": 989847,
-                "time": 1630387557924
+                "height": 1003376,
+                "total": 1003382,
+                "time": 1631177145336
             },
             {
-                "height": 983000,
-                "total": 989840,
-                "time": 1630387254739
+                "height": 1003376,
+                "total": 1003377,
+                "time": 1631176839656
             },
             {
-                "height": 982985,
-                "total": 989835,
-                "time": 1630386952607
+                "height": 1003372,
+                "total": 1003372,
+                "time": 1631176533018
             }
         ],
         "p2pAddress": [
-            "/p2p/11AQ7eYYpx5S46ozLmEAbw8tYd9EudmEwWMH8QvcSS4FpbT8NvY/p2p-circuit/p2p/1123sJaktx8G73v36CkZmiHaHgaQ8u2doLB7NQBiRTedowkzHcDa"
+            "/p2p/11LmGup58X4UXTajwmsYZhuXVcNYvnBCf4UGM3jx282iMotBR7j/p2p-circuit/p2p/112kS4A6sgZCTHU7gHyK1nBVhWVUMj2mSN11uARCEcREAd3WSj74"
         ],
         "fan_status_list": [
             {
-                "fan": 0,
+                "fan": 1,
                 "force": 0,
-                "temperature": 37,
-                "time": 1630337499821
+                "temperature": 72,
+                "time": 1631181015278
             },
             {
                 "fan": 1,
                 "force": 0,
-                "temperature": 38,
-                "time": 1630337469819
+                "temperature": 71,
+                "time": 1631180925273
+            },
+            {
+                "fan": 1,
+                "force": 0,
+                "temperature": 70,
+                "time": 1631180835269
+            },
+            {
+                "fan": 1,
+                "force": 0,
+                "temperature": 72,
+                "time": 1631180805267
+            },
+            {
+                "fan": 1,
+                "force": 0,
+                "temperature": 70,
+                "time": 1631180775265
+            },
+            {
+                "fan": 1,
+                "force": 0,
+                "temperature": 72,
+                "time": 1631180745263
+            },
+            {
+                "fan": 1,
+                "force": 0,
+                "temperature": 72,
+                "time": 1631180715262
+            },
+            {
+                "fan": 1,
+                "force": 0,
+                "temperature": 70,
+                "time": 1631180655259
+            },
+            {
+                "fan": 1,
+                "force": 0,
+                "temperature": 71,
+                "time": 1631180625257
+            },
+            {
+                "fan": 1,
+                "force": 0,
+                "temperature": 71,
+                "time": 1631180595256
             }
         ],
-        "blockStatus": -1,
+        "blockStatus": 1,
         "relay": false,
-        "labels": [
-            
-        ],
-        "sn": "110991613213000467",
-        "batch": "20210721",
-        "producedAt": 1626512107000,
-        "uuid": "5e0e950848bb1f8b41db10dd3d783a08",
-        "address": "112RJxpvdju1bz8wnBTebx9RaBn1LXTA22RamW7DH13d7bgUY3Yv",
-        "collectTime": 1630389677861,
-        "cpuId": "10000000c81bca52",
-        "cpuTemperature": 45,
-        "cpuUsed": 65.5,
+        "labels": [],
+        "sn": "110991321213002033",
+        "address": "112kS4A6sg1CTHU7gHyK1nBVhWVUMj2mSN11uARCEcREAd3WSj74",
+        "batch": null,
+        "collectTime": 1631181103754,
+        "cpuId": "100000002be60194",
+        "cpuTemperature": 67,
+        "cpuUsed": 37.6,
         "memoryTotal": 1900.79,
-        "memoryUsed": 653.58,
-        "name": "Stale Coffee Opossum",
-        "onboardingKey": "112RJxpvdju1bz8wnBTebx9RaBn1LXTA22RamW7DH13d7bgUY3Yv",
-        "region": "unknown",
+        "memoryUsed": 690.07,
+        "name": "Fantastic Pecan Robin",
+        "onboardingKey": "112kS4A6sg1CTHU7gHyK1nBVhWVUMj2mSN11uARCEcREAd3WSj74",
+        "producedAt": 1625707693512,
+        "region": "US915",
         "sdTotal": 58776.86,
-        "sdUsed": 3226.68,
+        "sdUsed": 30533.79,
         "version": {
-            "firmware": "2021.08.24.4"
+            "firmware": "2021.09.03.0"
         },
         "wifiSsid": "",
-        "addToHeliumAt": 1630337148000,
+        "addToHeliumAt": 1624003515000,
         "gain": 1.2,
-        "owner": "143LU8d123VK31djT2hEGapzfLGpntiXqTok4T5i8ugE23cGEoH",
-        "totalHeight": 1003437,
-        "synced": false,
-        "online": false,
-        "heliumOnline": false,
+        "owner": "133jU7Z49hcLZARp1CZpCBa1ZC234zoa3SKDMG52uv9H6wPMgLB",
+        "geocode": {
+            "short_street": "Irish-American Dam Rd",
+            "short_state": "NV",
+            "short_country": "US",
+            "short_city": "Lovelock",
+            "long_street": "Irish-American Dam Road",
+            "long_state": "Nevada",
+            "long_country": "United States",
+            "long_city": "Lovelock",
+            "city_id": "bG92ZWxvY2tuZXZhZGF1bml0ZWQgc3RhdGVz"
+        },
+        "heliumOnline": true,
+        "lat": 40.21757423872224,
+        "lng": -118.42763826806683,
+        "totalHeight": 1003445,
+        "synced": true,
+        "online": true,
         "isHealth": 2,
-        "relayed": -1
+        "relayed": 1
     }
 }
 ```
