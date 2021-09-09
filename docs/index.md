@@ -91,10 +91,6 @@ In this document we’re gonna show you how to make your HTTP API call to SenseC
         "blockStatus": -1,
         "relay": false,
         "labels": [],
-        "bindUserArr": [
-            "6110d47bc5e9994b17222896",
-            "61148befd481e9379295e5ef"
-        ],
         "sn": "110991585001000034",
         "address": "11JdVNmGp1a9pnAAZVwMRJD5buZnCuPusCm2Po1n6ACTsB9kuc2",
         "batch": "20210622-A",
