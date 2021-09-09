@@ -178,6 +178,7 @@ Get the list of all devices
 ```
 
 ## Error Code
+
 code| msg | description
 ---|---|---
 10000 | Framework analysis error | Service error
