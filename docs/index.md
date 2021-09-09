@@ -131,7 +131,6 @@ Get the list of all devices
 - method: GET
 - params:
     - apikey: apikey of your account
-    - sn: device sn
 - rate limit: 2 times per 1 min
 - response
 ```
