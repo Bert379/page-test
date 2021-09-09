@@ -1,5 +1,3 @@
-# SenseCAP MX API
-
 ## Summary
 In this document we’re gonna show you how to make your HTTP API call to SenseCAP MX HTTP API.
 
