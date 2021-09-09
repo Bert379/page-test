@@ -2,7 +2,7 @@
 In this quickstart we’re gonna show you how to make your first HTTP API call to SenseCAP MX HTTP API.
 
 ## HTTP HOST
-- https://sensecap.seeed.cn/openapi
+- https://status.sensecapmx.cloud
 
 ## Device Detail
 Get the detail of devices
