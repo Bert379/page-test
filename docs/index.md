@@ -19,103 +19,123 @@ In this document we’re gonna show you how to make your HTTP API call to SenseC
     "code": 0,
     "msg": "",
     "data": {
-        "height": 949715,
+        "height": 983142,
         "connected": 1,
         "dialable": 1,
-        "natType": 2,
+        "natType": 1,
+        "balenaVpnOnline": 0,
         "ipPublic": [
-            "113.87.161.6"
+            "5.178.180.87"
         ],
         "ipEthLocal": [
-            "192.168.177.6"
+            "192.168.5.117"
         ],
         "ipWifiLocal": [
             "0.0.0.0"
         ],
         "syncList": [
             {
-                "height": 949715,
-                "total": 955790,
-                "time": 1628325601919
+                "height": 983142,
+                "total": 989882,
+                "time": 1630389677784
             },
             {
-                "height": 949699,
-                "total": 955786,
-                "time": 1628325297832
+                "height": 983127,
+                "total": 989878,
+                "time": 1630389374727
             },
             {
-                "height": 949680,
-                "total": 955774,
-                "time": 1628324990548
+                "height": 983111,
+                "total": 989870,
+                "time": 1630389071605
             },
             {
-                "height": 949625,
-                "total": 955758,
-                "time": 1628324037462
+                "height": 983091,
+                "total": 989868,
+                "time": 1630388770447
             },
             {
-                "height": 949500,
-                "total": 955735,
-                "time": 1628322481805
+                "height": 983075,
+                "total": 989859,
+                "time": 1630388468354
             },
             {
-                "height": 949485,
-                "total": 955719,
-                "time": 1628322172950
+                "height": 983055,
+                "total": 989856,
+                "time": 1630388165049
             },
             {
-                "height": 949460,
-                "total": 955719,
-                "time": 1628321868938
+                "height": 983034,
+                "total": 989851,
+                "time": 1630387860903
             },
             {
-                "height": 949443,
-                "total": 955719,
-                "time": 1628321565039
+                "height": 983018,
+                "total": 989847,
+                "time": 1630387557924
             },
             {
-                "height": 949430,
-                "total": 955718,
-                "time": 1628321259696
+                "height": 983000,
+                "total": 989840,
+                "time": 1630387254739
             },
             {
-                "height": 949420,
-                "total": 955713,
-                "time": 1628320946924
+                "height": 982985,
+                "total": 989835,
+                "time": 1630386952607
             }
         ],
         "p2pAddress": [
-            "/p2p/112WNiFan46rojvbsaWJKk1DGDS2oL2mP7b6vqBQ9WvAVNgrDzXg/p2p-circuit/p2p/11JdVNmGpfa9pnAAZVwMRJD5buZnCuPusCm2Po1n6ACTsB9kuc2"
+            "/p2p/11AQ7eYYpx5S46ozLmEAbw8tYd9EudmEwWMH8QvcSS4FpbT8NvY/p2p-circuit/p2p/1123sJaktx8G73v36CkZmiHaHgaQ8u2doLB7NQBiRTedowkzHcDa"
         ],
-        "fan_status_list": [],
+        "fan_status_list": [
+            {
+                "fan": 0,
+                "force": 0,
+                "temperature": 37,
+                "time": 1630337499821
+            },
+            {
+                "fan": 1,
+                "force": 0,
+                "temperature": 38,
+                "time": 1630337469819
+            }
+        ],
         "blockStatus": -1,
         "relay": false,
-        "labels": [],
-        "sn": "110991585001000034",
-        "address": "11JdVNmGp1a9pnAAZVwMRJD5buZnCuPusCm2Po1n6ACTsB9kuc2",
-        "batch": "20210622-A",
-        "collectTime": 1628325602020,
-        "cpuId": "10000000f2f1248c",
-        "cpuTemperature": 34,
-        "cpuUsed": 52.3,
+        "labels": [
+            
+        ],
+        "sn": "110991613213000467",
+        "batch": "20210721",
+        "producedAt": 1626512107000,
+        "uuid": "5e0e950848bb1f8b41db10dd3d783a08",
+        "address": "112RJxpvdju1bz8wnBTebx9RaBn1LXTA22RamW7DH13d7bgUY3Yv",
+        "collectTime": 1630389677861,
+        "cpuId": "10000000c81bca52",
+        "cpuTemperature": 45,
+        "cpuUsed": 65.5,
         "memoryTotal": 1900.79,
-        "memoryUsed": 566.34,
-        "name": "Brisk Bone Narwhal",
-        "onboardingKey": "11JdVNmGp1a9pnAAZVwMRJD5buZnCuPusCm2Po1n6ACTsB9kuc2",
-        "producedAt": 1624261107175,
+        "memoryUsed": 653.58,
+        "name": "Stale Coffee Opossum",
+        "onboardingKey": "112RJxpvdju1bz8wnBTebx9RaBn1LXTA22RamW7DH13d7bgUY3Yv",
+        "region": "unknown",
         "sdTotal": 58776.86,
-        "sdUsed": 1925.95,
+        "sdUsed": 3226.68,
         "version": {
-            "firmware": "2021.08.02.1"
+            "firmware": "2021.08.24.4"
         },
         "wifiSsid": "",
-        "addToHeliumAt": 1628056866000,
+        "addToHeliumAt": 1630337148000,
         "gain": 1.2,
-        "totalHeight": 0,
-        "synced": true,
+        "owner": "143LU8d123VK31djT2hEGapzfLGpntiXqTok4T5i8ugE23cGEoH",
+        "totalHeight": 1003437,
+        "synced": false,
         "online": false,
+        "heliumOnline": false,
         "isHealth": 2,
-        "relayed": 1
+        "relayed": -1
     }
 }
 ```
