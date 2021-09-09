@@ -10,7 +10,7 @@ In this document we’re gonna show you how to make your HTTP API call to SenseC
 - path: {host}/api/openapi/device/view_device
 - method: GET
 - params:
-    - apikey: apikey of your account
+    - api_key: apikey of your account
     - sn: device sn
 - rate limit: Up to 50 times in 5 minutes
 - response
@@ -126,7 +126,7 @@ In this document we’re gonna show you how to make your HTTP API call to SenseC
 - example request
 ```
 curl --request GET \
-     --url https://status.sensecapmx.cloud/api/openapi/device/view_device?sn=110991585000000034&apiKey=<your apiKey>
+     --url https://status.sensecapmx.cloud/api/openapi/device/view_device?sn=110991585000000034&api_key=<your apiKey>
 ```
 
 ## Device list
@@ -135,7 +135,7 @@ curl --request GET \
 - path: {host}/api/openapi/device/list_device
 - method: GET
 - params:
-    - apikey: apikey of your account
+    - api_key: apikey of your account
 - rate limit: Up to 2 times in 1 minutes
 - response
 ```
@@ -183,7 +183,7 @@ curl --request GET \
 - example request
 ```
 curl --request GET \
-     --url https://status.sensecapmx.cloud/api/openapi/device/list_device?apiKey=<your apiKey>
+     --url https://status.sensecapmx.cloud/api/openapi/device/list_device?api_key=<your apiKey>
 ```
 
 ## Error Code
