@@ -1,0 +1,6 @@
+.env
+.idea
+/node_modules
+/logs
+/run
+package-lock.json
