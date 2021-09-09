@@ -126,7 +126,7 @@ In this document we’re gonna show you how to make your HTTP API call to SenseC
 - example request
 ```
 curl --request GET \
-     --url https://status.sensecapmx.cloud/api/openapi/device/view_device?sn=110991585000000034&api_key=<your apiKey>
+     --url https://status.sensecapmx.cloud/api/openapi/device/view_device?sn=<your device sn>&api_key=<your apiKey>
 ```
 
 ## Device list
