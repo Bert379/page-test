@@ -1,18 +1,18 @@
 ## Summary
-In this quickstart we’re gonna show you how to make your first HTTP API call to SenseCAP MX HTTP API.
+In this document we’re gonna show you how to make your HTTP API call to SenseCAP MX HTTP API.
 
 ## HTTP HOST
 - https://status.sensecapmx.cloud
 
 ## Device Detail
-Get the detail of devices
+**Get the detail of devices**
 
 - path: {host}/api/openapi/device/view_device
 - method: GET
 - params:
     - apikey: apikey of your account
     - sn: device sn
-- rate limit: 50 times per 5 min
+- rate limit: Up to 50 times in 5 minutes
 - response
 ```
 {
@@ -123,15 +123,20 @@ Get the detail of devices
     }
 }
 ```
+- example request
+```
+curl --request GET \
+     --url https://status.sensecapmx.cloud/api/openapi/device/view_device?sn=110991585000000034&apiKey=<your apiKey>
+```
 
 ## Device list
-Get the list of all devices
+**Get the list of all devices**
 
 - path: {host}/api/openapi/device/list_device
 - method: GET
 - params:
     - apikey: apikey of your account
-- rate limit: 2 times per 1 min
+- rate limit: Up to 2 times in 1 minutes
 - response
 ```
 {
@@ -174,6 +179,11 @@ Get the list of all devices
         ]
     }
 }
+```
+- example request
+```
+curl --request GET \
+     --url https://status.sensecapmx.cloud/api/openapi/device/list_device?apiKey=<your apiKey>
 ```
 
 ## Error Code
